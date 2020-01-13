@@ -1,0 +1,130 @@
+    1  git clone https://github.com/sunderchaudhary/DevOps_sunder.git
+    2  ls
+    3  cd DevOps_sunder/
+    4  ls
+    5  ls -ltr
+    6  vim Hello_World.txt
+    7  ls 
+    8  vi Hello_world
+    9  ls
+   10  mv Hello_world Hello_world.txt
+   11  ls
+   12  git status
+   13  git add Hello_world.txt
+   14  git status
+   15  git rm Vagrantfile
+   16  ls
+   17  git commit -m "initial comment - adding hello"
+   18  ls
+   19  git status
+   20  cat Hello_world.txt 
+   21  git commit -m "initial comment - adding hello"
+   22  git add Hello_world.txt
+   23  git status
+   24  git push
+   25  history
+   26  vi sunder.txt
+   27  git status
+   28  git add sunder.txt 
+   29  git status
+   30  git commit -c "Sunder chaudhar push this file"
+   31  git commit -m "Sunder chaudhar push this file"
+   32  git status
+   33  git push
+   34  ls
+   35  echo "my friend kapil" >> Hello_world.txt 
+   36  git status
+   37  git add .
+   38  git status
+   39  ls
+   40  cat Hello_world.txt 
+   41  git push -m "one more update"
+   42  git commit -m "one more update"
+   43  git push
+   44  git log
+   45  echo "apple pi" |git hash-object --stdin
+   46  echo "apple pi" |git hash-object --stdin -w
+   47  git log
+   48  echo "apple pi" |git hash-object --stdin -w
+   49  git cat-file b37e6be639d5b72ceee2a12b206b932990c74821 -p
+   50  git cat-file b37e6be639d5b72ceee2a12b206b932990c74821 -t
+   51  git cat-file b37e6be639d5b72ceee2a12b206b932990c74821 -p
+   52  ls
+   53  ls -a
+   54  cd .git/
+   55  ls
+   56  cat HEAD 
+   57  ls -ltr
+   58  cd objects/
+   59  ls
+   60  ls -ltr b3/7e6be639d5b72ceee2a12b206b932990c74821 
+   61  history
+   62  cd ..
+   63  ls
+   64  mv Hello_world.txt Hellosunder
+   65  git status
+   66  git add
+   67  git add .
+   68  git status
+   69  cp -rf kapil .
+   70  ls
+   71  git status
+   72  touch issue
+   73  get status
+   74  git status
+   75  git add .
+   76  git status
+   77  touch issue.new
+   78  git status
+   79  git add .
+   80  git status
+   81  rm -rf issue*
+   82  git status
+   83  git checkout issue
+   84  git status
+   85  git checkout issue.new
+   86  git status
+   87  history
+   88  git status
+   89  git checkout HEAD~1
+   90  git status
+   91  git branch 
+   92  git checkout HEAD~2
+   93  git commit 
+   94  git status
+   95  cp -rf /etc/sysctl.conf .
+   96  cat sysctl.conf ~
+   97  ll
+   98  ls -ltr
+   99  mkdir -p devops/2020/project_{01..10}/samples
+  100  echo "username: sundersingh \n Password: kapil@123" > devops/2020/project_10/samples/cred.txt
+  101  devops/2020/project_10/samples/cred.txt
+  102  cat devops/2020/project_10/samples/cred.txt
+  103  ls
+  104  apt-get update; apt-get install tree -y
+  105  ls
+  106  git config --list
+  107  git branch 
+  108  git branch devlopment
+  109  git branch production
+  110  git branch
+  111  git checkout devlopment 
+  112  git branch
+  113  echo "Hello welcome to Devlopemnt brnach" > Dev.txt
+  114  git add .
+  115  git commit -m "Dev updated"
+  116  git status
+  117  git branch
+  118  git log
+  119  git branch 
+  120  echo "Hello welcome to prod brnach" > prod.txt
+  121  git commit -m "prod updated"
+  122  git branch 
+  123  history > History_day1
+  124  git add .; git commit -m "history day1"; git push
+  125  git branch 
+  126  git checkout master 
+  127  git add .; git commit -m "history day1"; git push
+  128  ls
+  129  find / -name history
+  130  history > history_day1.txt
